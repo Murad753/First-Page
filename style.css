@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/*nav*/
+
+.navigation-menu a{
+    float: left;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+    
+    transition: all .2s;
+}
+.navigation-menu a:hover{
+    color: #fff;
+}
+.nav-menu ul li{
+    margin-right: 20px;
+    float: right;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    
+    transition: all .2s;
+}
+.nav-menu ul li:hover{
+    color: #fff;
+}
+.nav-logo a{
+    font-weight: 700;
+}
+.navigation-menu{
+    padding: 30px;
+    margin: auto;
+    width: 80%;
+}
+.navigation-text{
+    padding: 150px;
+    margin: auto;
+    text-align: center;
+}
+.navigation-text h1{
+    width: 1000px;
+    margin: auto;
+    font-size: 56px;
+    color: white;
+}
+header hr{
+    width: 60px;
+    margin: 30px auto;
+    border-width: 2px;
+    border-color: #f4623a;
+    color: orangered;
+    font-weight: 300;
+}
+.navigation-text p{
+    width: 700px;
+    margin: 50px auto;
+    color: white;
+}
+.navigation-text a{
+    padding: 20px 30px;;
+    color: white;
+    background-color: orangered;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.navigation-text a:hover{
+    background-color: orange;
+}
+header{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-a{
+    height: 70vh;
+    background-color: #f4623a;
+    margin: auto;
+    text-align: center;
+}
+.section-a h1{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.section-a hr{
+    width: 60px;
+    border-width: 2px;
+    border-color: white;
+    margin: 10px auto;
+    font-size: 5px;
+    margin-bottom: 30px;
+}
+.section-a p{
+    width: 700px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+.section-a a{
+    text-align: center;
+    padding: 20px 30px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 60px;    
+}
+/*section-b*/
+
+.section-b{
+    height:  80vh;
+    margin: auto;
+    width: 80%;
+}
+.section-b h1{
+    font-size: 30px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;    
+}
+.section-b hr{
+    border-width: 2px;
+    border-color: #f4623a;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.gem{
+    width: 25%;
+    float: left;
+}
+.laptop{
+    width: 25%;
+    float: left;
+}
+.globe{
+    width: 25%;
+    float: left;
+}
+.heart{
+    width: 25%;
+    float: left;
+}
+div i{
+    margin-left: 95px;
+    margin-bottom: 20px;
+    color: #f4623a;
+}
+div.icon h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.icon p{
+    text-align: center;
+    width: 260px;
+    font-weight: 400;
+    color: #6c757d;
+}
+/*section-c*/
+.section-c{
+    background-color: #343a40;
+    height: 130vh;
+}
+.img img{
+    cursor: pointer;
+    width: 33.333333%;
+    float: left;
+}
+.blog-text{
+    text-align: center;
+}
+.blog-text h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 32px;
+}
+.blog-text a{
+    text-align: center;
+    padding: 20px 38px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 60px;    
+}
+/*section-d*/
+.footer{
+    margin: 100px auto;
+    text-align: center;
+    width: 80%;
+}
+.footer hr{
+    border-width: 2px;
+    border-color: #f4623a;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer p{
+    color: #6c757d;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.phone{
+    float: left;
+    margin-left: 25%;
+}
+.message{
+    width: 40%;
+    float: right;
+}
+.phone p{
+    margin-left: 40px;
+}
+.message p{
+    margin-left: 20px;
+}
+.message i, .phone i{
+    color: gray;
+}
+/*footer*/
+
+.footer-1{
+    padding-top: 200px;
+    margin: auto;
+    text-align: center;
+}
+.footer-1 p{
+    color: dimgrey;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
